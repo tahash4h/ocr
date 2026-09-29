@@ -1,0 +1,59 @@
+=== PAGES PROCESSED (3) ===
+page1.png, page2.png, page3.png
+
+=== OCR ACCURACY ===
+Word Error Rate: 11.99%
+Character Error Rate: 65.81%
+Overall Similarity: 33.42%
+
+=== DIFFERENCES (24 mismatches) ===
+[REPLACE] ref[31:32]: "at"  ->  hyp[31:32]: "with"
+[REPLACE] ref[47:52]: "ends; for the ends are"  ->  hyp[47:56]: "ends ; for the ends are sometimes activities, and"
+[REPLACE] ref[66:67]: "activities,"  ->  hyp[70:71]: "actions,"
+[REPLACE] ref[110:112]: "But it"  ->  hyp[114:115]: "It"
+[REPLACE] ref[122:124]: "subordinate to"  ->  hyp[125:130]: "or sciences which fall under"
+[REPLACE] ref[156:157]: "strategy;"  ->  hyp[162:163]: "strategy,"
+[REPLACE] ref[193:194]: "subordinate"  ->  hyp[199:201]: "subordi- nate"
+[REPLACE] ref[210:211]: "pursued."  ->  hyp[217:220]: "themselves sought after."
+[REPLACE] ref[304:305]: "fruitless),"  ->  hyp[313:314]: "futile)"
+[REPLACE] ref[318:319]: "Is"  ->  hyp[327:328]: "Does"
+[REPLACE] ref[321:322]: "likely"  ->  hyp[330:331]: "follow"
+[EXTRA]   hyp[367:368]: "and" (added by OCR)
+[REPLACE] ref[379:380]: "comprehend,"  ->  hyp[389:391]: "com- prehend,"
+[REPLACE] ref[403:405]: "authoritative and"  ->  hyp[414:417]: "authoritati- ve or"
+[EXTRA]   hyp[427:433]: "; for it is the political" (added by OCR)
+[REPLACE] ref[417:420]: "faculty; for such"  ->  hyp[435:437]: "faculty which"
+[REPLACE] ref[444:449]: "people for particular pursuits. But"  ->  hyp[461:471]: "people. We perceive too that the faculties which are held"
+[REPLACE] ref[466:468]: "is the"  ->  hyp[488:489]: "makes"
+[EXTRA]   hyp[496:497]: "also" (added by OCR)
+[REPLACE] ref[485:486]: "for"  ->  hyp[507:508]: "to"
+[REPLACE] ref[490:492]: "must of"  ->  hyp[512:518]: "follows that its end will comprehend"
+[REPLACE] ref[531:535]: "continuity or in eternity,"  ->  hyp[557:561]: "attainment or in preservation,"
+[REPLACE] ref[551:553]: "worth praying"  ->  hyp[577:580]: "to be thankful"
+[REPLACE] ref[556:561]: "noble to achieve it for"  ->  hyp[583:588]: "nobler and more divine in"
+
+=== OCR OUTPUT ===
+BOOK I.
+
+EVERY art and every scientific inquiry, and similarly every action and purpose, may be said to aim at some good. Hence the good has been well defined as that with which all things aim. But it is clear that there is a difference in the ends ; for the ends are sometimes activities, and sometimes results beyond the mere activities. Also, where there are certain ends beyond the actions, the results are naturally superior to the activities.
+
+As there are various actions, arts, and sciences, it follows that the ends are also various. Thus health is the end of medicine, a vessel of shipbuilding, victory of strategy, and wealth of domestic economy. It often happens that there are a number of such arts or sciences which fall under a single faculty, as the art of making bridles, and all such other arts as make
+
+the instruments of horsemanship, under horsemanship, and this again as well as every military action under strategy, and in the same way other arts or sciences under other faculties. But in all these cases the ends of the architectonic arts or sciences, whatever they may be, are more desirable than those of the subordi- nate arts or sciences, as it is for the sake of the former that the latter are themselves sought after. It makes no difference to the argument whether the activities themselves are the ends of the actions, or something else beyond the activities as in the above mentioned sciences.
+If it is true that in the sphere of action there is an end which we wish for its own sake, and for the sake of which we wish everything else, and that we do not desire all things for the sake of something else (for, if that is so, the process will go on ad infinitum, and our desire will be idle and futile) it is clear that this will be the good or the supreme good. Does it not follow then that the knowledge of this supreme good is of great importance for the conduct of life, and that, if we know it, we shall be like archers who have a mark at which to aim, and we shall have a better chance of attaining what we want? But, if this is the case, we must endeavour to com- prehend, at least in outline, its nature, and the science or faculty to which it belongs.
+It would seem that this is the most authoritati- ve or architectonic science or faculty, and such is evidently the political ; for it is the political science or faculty which determines what sciences are necessary in states, and what kind of sciences should be learnt,
+
+and how far they should be learnt by particular people. We perceive too that the faculties which are held in the highest esteem, e.g. strategy, domestic economy, and rhetoric, are subordinate to it. But as it makes use of the other practical sciences, and also legislates upon the things to be done and the things to be left undone, it follows that its end will comprehend the ends of all the other sciences, and will therefore be the true good of mankind. For although the good of an individual is identical with the good of a state, yet the good of the state, whether in attainment or in preservation, is evidently greater and more perfect. For while in an individual by himself it is something to be thankful for, it is nobler and more divine in a nation or state.
+
+=== GROUND TRUTH ===
+BOOK I.
+
+EVERY art and every scientific inquiry, and similarly every action and purpose, may be said to aim at some good. Hence the good has been well defined as that at which all things aim. But it is clear that there is a difference in the ends; for the ends are sometimes results beyond the mere activities. Also, where there are certain ends beyond the activities, the results are naturally superior to the activities.
+
+As there are various actions, arts, and sciences, it follows that the ends are also various. Thus health is the end of medicine, a vessel of shipbuilding, victory of strategy, and wealth of domestic economy. But it often happens that there are a number of such arts subordinate to a single faculty, as the art of making bridles, and all such other arts as make the instruments of horsemanship, under horsemanship, and this again as well as every military action under strategy; and in the same way other arts or sciences under other faculties. But in all these cases the ends of the architectonic arts or sciences, whatever they may be, are more desirable than those of the subordinate arts or sciences, as it is for the sake of the former that the latter are pursued. It makes no difference to the argument whether the activities themselves are the ends of the actions, or something else beyond the activities as in the above mentioned sciences.
+
+If it is true that in the sphere of action there is an end which we wish for its own sake, and for the sake of which we wish everything else, and that we do not desire all things for the sake of something else (for, if that is so, the process will go on ad infinitum, and our desire will be idle and fruitless), it is clear that this will be the good or the supreme good.
+
+Is it not likely then that the knowledge of this supreme good is of great importance for the conduct of life, and that, if we know it, we shall be like archers who have a mark at which to aim, we shall have a better chance of attaining what we want? But, if this is the case, we must endeavour to comprehend, at least in outline, its nature, and the science or faculty to which it belongs.
+
+It would seem that this is the most authoritative and architectonic science or faculty, and such is evidently the political science or faculty; for such determines what sciences are necessary in states, and what kind of sciences should be learnt, and how far they should be learnt by particular people for particular pursuits. But in the highest esteem, e.g. strategy, domestic economy, and rhetoric, are subordinate to it. But as it is the use of the other practical sciences, and legislates upon the things to be done and the things for be left undone, it must of the ends of all the other sciences, and will therefore be the true good of mankind. For although the good of an individual is identical with the good of a state, yet the good of the state, whether in continuity or in eternity, is evidently greater and more perfect. For while in an individual by himself it is something worth praying for, it is noble to achieve it for a nation or state.

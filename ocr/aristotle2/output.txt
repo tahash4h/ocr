@@ -1,0 +1,53 @@
+=== PAGES PROCESSED (4) ===
+page1.png, page2.png, page2.5.png, page3.png
+
+=== OCR ACCURACY ===
+Word Error Rate: 3.17%
+Character Error Rate: 14.47%
+Overall Similarity: 84.79%
+
+=== DIFFERENCES (16 mismatches) ===
+[REPLACE] ref[21:22]: "good.¹"  ->  hyp[21:22]: "good.1"
+[REPLACE] ref[25:26]: "nobly²"  ->  hyp[25:26]: "nobly2"
+[REPLACE] ref[44:45]: "difference"  ->  hyp[44:45]: "differ-ence"
+[EXTRA]   hyp[49:50]: "ends" (added by OCR)
+[REPLACE] ref[81:82]: "activities.³"  ->  hyp[82:83]: "activities.3"
+[EXTRA]   hyp[124:125]: "some" (added by OCR)
+[REPLACE] ref[124:125]: "capacity—for"  ->  hyp[126:127]: "capacity⁵—for"
+[REPLACE] ref[177:178]: "choiceworthy"  ->  hyp[179:180]: "choice-worthy"
+[REPLACE] ref[280:281]: "longing⁶"  ->  hyp[282:283]: "longing<sup>6</sup>"
+[REPLACE] ref[294:295]: "best.⁷"  ->  hyp[296:297]: "best.<sup>7</sup>"
+[REPLACE] ref[371:372]: "one,⁸"  ->  hyp[373:374]: "one,<sup>8</sup>"
+[REPLACE] ref[379:380]: "art.⁹"  ->  hyp[381:382]: "art.<sup>9</sup>"
+[REPLACE] ref[382:383]: "or-dains"  ->  hyp[384:386]: "or- dains"
+[REPLACE] ref[414:415]: "generalship,"  ->  hyp[417:418]: "generals,"
+[REPLACE] ref[428:429]: "remaining¹⁰"  ->  hyp[431:432]: "remaining"
+[REPLACE] ref[532:533]: "inquiry."  ->  hyp[535:536]: "in-quiry."
+
+=== OCR OUTPUT ===
+CHAPTER ONE
+Every art and every inquiry, and similarly every action as well as choice, is held to aim at some good.1 Hence people have nobly2 declared that the good is that at which all things aim. But there appears to be a certain differ-ence among the ends: some ends are activities, others are certain works apart from the activities themselves, and in those cases in which there are certain ends apart from the actions, the works are naturally better than the activities.3
+
+Now, since there are many actions, arts, and sciences,⁴ the ends too are many: of medicine, the end is health; of shipbuilding, a ship; of generalship, victory; of household management, wealth. And in all things of this sort that fall under some one capacity⁵—for just as bridle making and such other arts as concern equestrian gear fall under horsemanship, while this art and every action related to warfare fall under generalship, so in the same manner, some arts fall under one capacity, others under another—in all of them, the ends of the architectonic ones are more choice-worthy than all those that fall under them, for these latter are pursued for the sake of the former. And it makes no difference at all whether the ends of the actions are the activities themselves or something else apart from these, as in the sciences mentioned.
+
+CHAPTER TWO
+If, therefore, there is some end of our actions that we wish for on account of itself, the rest being things we wish for on account of this end, and if we do not choose all things on account of something else—for in this way the process will go on infinitely such that the longing<sup>6</sup> involved is empty and pointless—clearly this would be the good, that is, the best.<sup>7</sup> And with a view to our life, then, is not the knowledge of this good of great weight, and would we not, like archers in possession of a target, better hit on what is needed? If this is so, then one must try to grasp, in outline at least, whatever it is and to which of the sciences or capacities it belongs. But it might be held to belong to the most authoritative and most architectonic one,<sup>8</sup> and such appears to be the political art.<sup>9</sup> For it or-
+
+dains what sciences there must be in cities and what kinds each person in turn must learn and up to what point. We also see that even the most honored capacities—for example, generals, household management, rhetoric—fall under the political art. Because it makes use of the remaining sciences and, further, because it legislates what one ought to do and what to abstain from, its end would encompass those of the others, with the result that this would be the human good. For even if this is the same thing for an individual and a city, to secure and preserve the good of the city appears to be something greater and more complete: the good of the individual by himself is certainly desirable enough, but that of a nation and of cities is nobler and more divine.
+
+The inquiry, then, aims at these things, since it is a sort of political in-quiry.
+
+=== GROUND TRUTH ===
+CHAPTER ONE
+
+Every art and every inquiry, and similarly every action as well as choice, is held to aim at some good.¹ Hence people have nobly² declared that the good is that at which all things aim. But there appears to be a certain difference among the ends: some are activities, others are certain works apart from the activities themselves, and in those cases in which there are certain ends apart from the actions, the works are naturally better than the activities.³
+
+Now, since there are many actions, arts, and sciences,⁴ the ends too are many: of medicine, the end is health; of shipbuilding, a ship; of generalship, victory; of household management, wealth. And in all things of this sort that fall under one capacity—for just as bridle making and such other arts as concern equestrian gear fall under horsemanship, while this art and every action related to warfare fall under generalship, so in the same manner, some arts fall under one capacity, others under another—in all of them, the ends of the architectonic ones are more choiceworthy than all those that fall under them, for these latter are pursued for the sake of the former. And it makes no difference at all whether the ends of the actions are the activities themselves or something else apart from these, as in the sciences mentioned.
+
+CHAPTER TWO
+
+If, therefore, there is some end of our actions that we wish for on account of itself, the rest being things we wish for on account of this end, and if we do not choose all things on account of something else—for in this way the process will go on infinitely such that the longing⁶ involved is empty and pointless—clearly this would be the good, that is, the best.⁷ And with a view to our life, then, is not the knowledge of this good of great weight, and would we not, like archers in possession of a target, better hit on what is needed? If this is so, then one must try to grasp, in outline at least, whatever it is and to which of the sciences or capacities it belongs.
+
+But it might be held to belong to the most authoritative and most architectonic one,⁸ and such appears to be the political art.⁹ For it or-dains what sciences there must be in cities and what kinds each person in turn must learn and up to what point. We also see that even the most honored capacities—for example, generalship, household management, rhetoric—fall under the political art. Because it makes use of the remaining¹⁰ sciences and, further, because it legislates what one ought to do and what to abstain from, its end would encompass those of the others, with the result that this would be the human good. For even if this is the same thing for an individual and a city, to secure and preserve the good of the city appears to be something greater and more complete: the good of the individual by himself is certainly desirable enough, but that of a nation and of cities is nobler and more divine.
+
+The inquiry, then, aims at these things, since it is a sort of political inquiry.
