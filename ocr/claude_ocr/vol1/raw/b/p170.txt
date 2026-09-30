@@ -1,0 +1,4 @@
+[صفحة فارغة]
+
+---NOTES---
+None of the three slices has any text. The only thing printed is the page number "١٧٠" at the bottom, which I left out as instructed.

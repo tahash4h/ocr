@@ -1,0 +1,4 @@
+vol*/crops/
+vol*/pages/
+vol*/*.log
+__pycache__/
